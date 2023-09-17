@@ -1,0 +1,99 @@
+body{
+    background-color: darkgray;
+    
+}
+
+#content{
+    width: 50%;
+    height: auto;
+    margin: 2%;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    
+}
+
+.box1{
+    width: 35%;
+    height: 75%;
+    background-color: red;
+    padding: 37% 30% ;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#parent{
+    width: 40%;
+    height: auto;
+    margin: 2%;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    display: inline;
+}
+.box2{
+    width: 35%;
+    height: auto;
+    background-color: chartreuse;
+    padding: 15% 37.5% ;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2 p
+{
+font-size: 25px;
+text-align: center;
+color: white;
+    
+}
+
+.box3{
+    background-color: hotpink;
+    width: 20%;
+    height: auto;
+    margin-left: -10%;
+    margin-top: 4%;
+    padding: 25% 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
+.box3 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.box4,.box5{
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin-top: 4%;
+    margin-left: 2%;
+    padding: 9% 24%;
+    background-color: aquamarine;
+    flex-wrap: nowrap;
+ 
+}
+
+.box3,.box4,.box5{
+   float: left;;    
+}
+
+.box4,.box5{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
